@@ -1,0 +1,28 @@
+
+1. What is a String?
+        A string is a sequence of characters enclosed in single quotes ('), 
+        double quotes ("), or backticks (`) in JavaScript. Strings are used 
+        to store and manipulate text.
+
+Examples:
+    (1)   length – returns the number of characters in the string.
+    let name = "SQI";
+    console.log(name.length); 
+    // 3
+
+    (2)  toUpperCase() – converts all characters to uppercase.
+   console.log("hello".toUpperCase()); 
+   // "HELLO"
+ 
+    (3)  toLowerCase() – converts all characters to lowercase.
+   console.log("HELLO".toLowerCase()); 
+   // "hello"
+
+    (4)  substring(start, end) – extracts part of a string.
+   let text = "JavaScript";
+   console.log(text.substring(0, 4)); 
+   // "Java"
+
+    (5)  includes() – checks if a string contains another string.
+   console.log("SQI College".includes("SQI")); 
+   // true
